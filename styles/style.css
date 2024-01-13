@@ -164,4 +164,14 @@ li>a {
         align-items: center;
         gap: 1rem 4rem;
     }
+    .product-image-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        
+    }
+    .product-container{
+        margin: auto;
+    }
+    
 }

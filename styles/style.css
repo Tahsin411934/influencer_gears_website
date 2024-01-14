@@ -112,7 +112,9 @@ li>a {
 .product-image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
+
 
 .product-container>h1 {
     color: #18191F ;
@@ -122,7 +124,101 @@ li>a {
     line-height: 40px;
     /* 142.857% */
 }
+.poduct-container>h3{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
 
+}
+.product-container>p{
+   
+    width: 10rem;
+    color: #787885;
+    font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 143%; /* 20.02px */
+letter-spacing: 0.252px;
+padding-bottom: 2rem;
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 700;
+float: right;
+margin-right:100px ;
+}
+.Featured-products{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+.feature-image-content>h1{
+    color: #0A0826;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Poppins', sans-serif;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 157.895% */
+}
+.feature-image-content>p{
+    color: #6C6C6C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 175% */
+}
+.feature-image-content>button{
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+background: #E02C6D;
+border: none;
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 26px 0px;
+
+}
+footer{
+    margin-top: 6rem;
+    background: #0A0826;
+    color: #FFF;
+   
+
+}
+.footer-content{
+    padding: 4rem;
+    text-align: center;
+}
+footer>h1{
+
+    font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.icon>img{
+    width: 2rem;
+    height: 2rem;
+    padding: 2rem;
+}
 
 
 
@@ -167,11 +263,21 @@ li>a {
     .product-image-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        text-align: center;
+      
         
     }
     .product-container{
         margin: auto;
+       
     }
-    
+    .Featured-products{
+       flex-direction: column-reverse;
+       gap: 1rem;
+       text-align: center;
+    }
+    .feature-image-content>button{
+        width: 150px;
+        margin: 10px 0px;
+        
+    }
 }
